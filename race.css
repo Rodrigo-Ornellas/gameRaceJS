@@ -1,0 +1,69 @@
+/* Rod Ornellas - JS Developer - www.rodster.website */
+/* ============================================ */
+.wrapper
+{
+  max-width: 1000px;
+  margin: auto;
+
+  background-color: #E8E8E8;
+  height: 700px;
+  padding: 2%;
+}
+
+/*      body
+{
+  padding-top: 30px;
+}*/
+
+button
+{
+  width: 110px;
+  height: 35px;
+  background-color: rgb(224, 82, 6);
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+td
+{
+  border: 1px solid black;
+  color: #E8E8E8;
+  width: 9px !important;
+  font-size: 7px;
+  text-align: center;
+}
+
+#track td
+{
+  color: black;
+  width: 9px !important;
+  font-size: 7px;
+}
+
+#turtle td:last-of-type
+{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: blue;
+}
+
+#hare td:last-of-type
+{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: red;
+}
+
+#finale
+{
+  color: rgb(224, 82, 6);
+}
+
+img
+{
+  width: 200px;
+  display: block;
+}
